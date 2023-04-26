@@ -16,7 +16,7 @@
                background-size:100% 100%; ">
          </body>
 </html>
-<p3>这是我朋友的网站有兴趣可以看看</p3>
+<p3>下面这个是我朋友的网站有兴趣可以看看</p3>
  <table><tr><td bgcolor=Gainsboro>
 
 <a href="https://MCnps.github.io">点击此处跳转</a>
