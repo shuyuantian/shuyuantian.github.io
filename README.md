@@ -21,3 +21,4 @@
 
 <a href="https://MCnps.github.io">点击此处跳转</a>
 <!-- 他比我牛波一:( -->
+<a href="tencent://message/?uin=1486749996&Site=400301.com&Menu=yes">加我QQ点这</a>
