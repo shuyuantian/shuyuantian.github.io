@@ -1,4 +1,5 @@
 #Welcome to shuyuantian.github.io
+<!DOCTYPE html>
 <h1>欢迎٩(๑^o^๑)۶</h1>
 <h2>这里是书源の个人网站</h2>
 <p1>这里暂时什么都不会有，看到这里我相信你已经可以离开了</p1>
@@ -9,7 +10,8 @@
 	<meta content="text/html" charset="UTF-8">
 	<title>HTML设置图片为页面背景</title>
          </head>
-         <body background="![R-C](https://user-images.githubusercontent.com/131773669/234561011-1fe51c1e-636a-4a9b-940e-36ef39406581.png)
+         <body background="![R-C](![R-C](https://user-images.githubusercontent.com/131773669/234764643-f00e4265-60c9-47e8-b80f-ae6cded246c1.png)
+)
 " 
                style="background-repeat:no-repeat
                background-attachment:fixed;
@@ -21,4 +23,5 @@
 
 <a href="https://MCnps.github.io">点击此处跳转</a>
 <!-- 他比我牛波一:( -->
-mqqwpa://im/chat?chat_type=wpa&uin=1486749996&version=1&src_type=web&web_src=oicqzone.com
+
+
