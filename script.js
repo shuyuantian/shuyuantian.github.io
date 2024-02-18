@@ -1,14 +1,6 @@
-<script src="three.r134.min.js"></script>
-<script src="vanta.clouds2.min.js"></script>
-<script>
-VANTA.CLOUDS2({
-  el: "#your-element-selector",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  texturePath: "./gallery/noise.png"
-})
-</script>
+VANTA.CLOUDS({
+  el: ".clouds-background",
+  skyColor: 0x0, // 背景天空颜色
+  cloudColor: 0xffffff, // 云层颜色
+  cloudShadowColor: 0x0, // 云层阴影颜色
+});
