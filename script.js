@@ -1,6 +1,16 @@
-VANTA.CLOUDS({
-  el: ".clouds-background",
-  skyColor: 0x0, // 背景天空颜色
-  cloudColor: 0xffffff, // 云层颜色
-  cloudShadowColor: 0x0, // 云层阴影颜色
+// 使用 particles.js 创建粒子效果
+particlesJS('particles-js', {
+  "particles": {
+    "number": {
+      "value": 100,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    // 更多粒子效果配置...
+  }
 });
