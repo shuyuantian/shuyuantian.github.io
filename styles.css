@@ -1,13 +1,7 @@
-/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 .clouds-background {
@@ -15,85 +9,25 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: -1;
+  /* 使用 CSS 或 Vanta.js 生成云层效果 */
 }
 
 .content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  color: #333;
+  padding: 100px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  /* 使用 CSS 美化界面 UI，添加更多样式 */
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-}
-
-nav ul li {
-  margin-right: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-}
-
-section {
-  padding: 50px 0;
-}
-
-h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-p {
-  font-size: 1.2em;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-ul {
-  list-style: none;
-}
-
-.project {
-  margin-bottom: 30px;
-}
-
-/* Media queries for responsive design */
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 2em;
-  }
-
-  h2 {
-    font-size: 1.8em;
-  }
-
-  p {
-    font-size: 1em;
-  }
-
-  ul {
-    font-size: 1em;
-  }
-
-  .project {
-    margin-bottom: 20px;
-  }
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
 }
